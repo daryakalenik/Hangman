@@ -1,0 +1,59 @@
+.man-wrapper {
+  background-image: url("./images/images/1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 739px;
+}
+
+.secretWordWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.secretWordWrapper > span {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.input-wrapper {
+  width: max-content;
+  height: auto;
+  margin: 0 auto;
+}
+
+#userInput {
+  outline: none;
+  border: none;
+  border-bottom: 3px solid cadetblue;
+  width: 100px;
+  margin-right: 20px;
+  text-align: center;
+  font-size: 40px;
+}
+
+#userButton,
+#startGame {
+  color: cadetblue;
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px solid cadetblue;
+  transition: all 0.4s ease;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#startGame {
+  margin-left: 10px;
+}
+
+#userButton:hover,
+#startGame:hover {
+  background: cadetblue;
+  color: white;
+}
